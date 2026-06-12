@@ -1,0 +1,95 @@
+:root {
+  /* =========================
+     COLOR SYSTEM (SEMANTIC)
+  ========================= */
+
+  --background: #ffffff;
+  --foreground: #0f172a;
+
+  --card: #ffffff;
+  --card-border: #e2e8f0;
+
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+
+  --primary: #0f172a;
+  --primary-foreground: #ffffff;
+
+  /* Status colors */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  /* UI elements */
+  --border: #e2e8f0;
+  --ring: rgba(59, 130, 246, 0.4);
+
+  /* =========================
+     SPACING (8pt GRID)
+  ========================= */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* =========================
+     RADIUS SYSTEM
+  ========================= */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 999px;
+
+  /* =========================
+     SHADOW SYSTEM
+  ========================= */
+
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.08);
+  --shadow-lg: 0 16px 40px rgba(0,0,0,0.12);
+
+  /* =========================
+     TYPOGRAPHY SCALE
+  ========================= */
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+
+  /* =========================
+     Z-INDEX SCALE
+  ========================= */
+
+  --z-base: 1;
+  --z-dropdown: 10;
+  --z-sticky: 100;
+  --z-modal: 1000;
+  --z-toast: 2000;
+}
+
+.dark {
+  --background: #0b1220;
+  --foreground: #f8fafc;
+
+  --card: #0f172a;
+  --card-border: #1e293b;
+
+  --muted: #111827;
+  --muted-foreground: #94a3b8;
+
+  --border: #1e293b;
+}
